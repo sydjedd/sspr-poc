@@ -1,0 +1,6 @@
+@charset 'UTF-8';
+.mdc-button {
+    width: 400px;
+    margin-bottom: 24px;
+    flex-shrink: 0;
+}

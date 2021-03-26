@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+.mdc-typography--headline6,
+.mdc-text-field,
+.mdc-button,
+.mdc-linear-progress,
+.mdc-text-field-helper-line {
+    width: 400px;
+    text-align: center;
+}
+
+.mdc-text-field-helper-line {
+    margin: 0 0 12px 0;
+    text-align: left;
+    height: 40px;
+}
+
+.mdc-linear-progress {
+    margin: 24px 0 0 0;
+}
+
+.strong {
+    font-weight: bold;
+}
