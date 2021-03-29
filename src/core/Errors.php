@@ -44,19 +44,19 @@ final class Errors
         } else if($numero === 'E_APPLICATION' || $numero === 'E_LDAP') {
             $resultatHTML = $message;
         } else {
+            if (is_file('./app.log')) {
+                $fichierErreurs = fopen('./app.log', 'a');
+            } else {
+                $fichierErreurs = fopen('./app.log', 'x');
+            }                
+            fwrite($fichierErreurs, date('d.m.Y H:i:s').';'.$erreurLibelle[$numero].';'.$message.';'.basename($fichier).';'.$ligne."\r\n");
+            fclose($fichierErreurs);
+            $fichier = explode('/', $fichier);
+            $fichier = array_pop($fichier);
             if (Config::get('APP_ENV') === 'development') {
-                fwrite($fichierErreurs, date('d.m.Y H:i:s').';'.$erreurLibelle[$numero].';'.$message.';'.basename($fichier).';'.$ligne."\r\n");
-                fclose($fichierErreurs);
-                $fichier = explode('/', $fichier);
-                $fichier = array_pop($fichier);
                 $resultatHTML = $message.'<br />Dans dans le fichier '.basename($fichier).' à la ligne '.$ligne;
             } else {
                 $resultatHTML = 'Une erreur s\'est produite<br />Veuillez contacter un administrateur.';
-                if (is_file('./app.log')) {
-                    $fichierErreurs = fopen('./app.log', 'a');
-                } else {
-                    $fichierErreurs = fopen('./app.log', 'x');
-                }
             }
         }
 
