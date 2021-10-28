@@ -59,7 +59,7 @@ Configurer le module de réécriture d'url sur votre serveur web ou alors créer
 
 ### Avec le serveur web interne de PHP
 
-Placer vous à la racine du projet et lancer la commande pour simuler la réécrire d'url
+Placer vous à la racine du projet et lancer la commande pour simuler la réécriture d'url
 
 ```shell
 php -S localhost:80 public/redirect.php
