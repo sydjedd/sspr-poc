@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'APP_NAME' => 'SSPR-POC',
+    'APP_NAME' => 'SSPR',
     'APP_DESCRIPTION' => 'Changement et réinitialisation de mot de passe'
 ];

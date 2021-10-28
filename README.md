@@ -71,19 +71,19 @@ php -S localhost:80 public/redirect.php
 
 ## Contributing
 
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](http://sourcesup.renater.fr/www/sspr-poc/CONTRIBUTING.md) pour savoir comment le faire.
+Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](http://sourcesup.renater.fr/projects/sspr-poc/CONTRIBUTING.md) pour savoir comment le faire.
 
 ## Versions
 
 - **Dernière version stable :** 0.0.0
 - **Dernière version :** 0.0.0
 
-Liste des versions : [Cliquer pour afficher](http://sourcesup.renater.fr/www/sspr-poc/tags)
+Liste des versions : [Cliquer pour afficher](http://sourcesup.renater.fr/projects/sspr-poc/tags/)
 
 ## Auteurs
 
-**Salim YDJEDD** _alias_ [@sydjedd](http://sourcesup.renater.fr/www/)
+**Salim YDJEDD** _alias_ [@sydjedd](http://sourcesup.renater.fr/salim.ydjedd/)
 
-Liste des contributeurs : [Cliquer pour afficher](http://sourcesup.renater.fr/www/sspr-poc)
+Liste des contributeurs : [Cliquer pour afficher](http://sourcesup.renater.fr/projects/sspr-poc/)
 
 ## License
