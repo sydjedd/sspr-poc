@@ -43,7 +43,7 @@ nom.prenom@inserm.fr;email@secours.fr;;
 
 ### Avec un serveur web
 
-Configurer le module de réécrire d'url sur votre serveur web ou alors créer un fichier .htaccess à la racine
+Configurer le module de réécriture d'url sur votre serveur web ou alors créer un fichier .htaccess à la racine
 
 ```apache
 <IfModule mod_rewrite.c>
